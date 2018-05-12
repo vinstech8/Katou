@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/vinstech8/Katou#readme",
   "dependencies": {
+    "8ball": "^1.0.6",
     "core-js": "^2.5.6",
     "discord.js": "^11.3.2",
     "discord.js-commando": "^0.10.0"
