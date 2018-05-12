@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/vinstech8/Katou#readme",
   "dependencies": {
-    "discord.js": "^11.3.2"
+    "discord.js": "^11.3.2",
+    "discord.js-commando": "^0.10.0"
   }
 }
