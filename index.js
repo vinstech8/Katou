@@ -1,6 +1,6 @@
 // * Imports
- const commando = require('discord.js-commando');
- const config = require('./config.json');
+const commando = require('discord.js-commando');
+const config = require('./config.json');
 
 // * Client Initialization
 const client = new commando.Client({
@@ -11,7 +11,9 @@ const client = new commando.Client({
 // * Core Event Handling
 client.on('ready', () => { // Startup
     console.log(`Katou is online on ${client.guilds.size} guilds.`);
-    client.user.setActivity("the stock market | k!", { type: 'WATCHING'});
+    client.user.setActivity("the stock market | k!", {
+        type: 'WATCHING'
+    });
 });
 client.on('message', () => {
     // TODO: Add in more message handling
