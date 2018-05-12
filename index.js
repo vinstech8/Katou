@@ -1,7 +1,8 @@
-// ? Do these imports properly function?
+// * Imports
 import commando from "discord.js-commando";
-import config from "./config.json";
+import config from "./config.json"; 
 
+// * Client Initialization
 const client = new commando.Client({
     owner: config.owner,
     commandPrefix: config.prefix
