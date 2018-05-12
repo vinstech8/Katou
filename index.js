@@ -1,7 +1,6 @@
 // * Imports
-// TODO: Figure out why python looking imports don't work though vscode yells they do
-const commando = require('discord.js-commando');
-const config = require('./config.json');
+ const commando = require('discord.js-commando');
+ const config = require('./config.json');
 
 // * Client Initialization
 const client = new commando.Client({
