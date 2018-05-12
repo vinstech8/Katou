@@ -1,0 +1,19 @@
+{
+  "name": "katou",
+  "version": "1.0.0",
+  "description": "A small discord.js-commando bot made to handle economy and RNG commands.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinstech8/Katou.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinstech8/Katou/issues"
+  },
+  "homepage": "https://github.com/vinstech8/Katou#readme"
+}
