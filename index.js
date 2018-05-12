@@ -28,7 +28,7 @@ client.on('guildDelete', guild => { // Left Guild
 // * Error Handling
 client.on('error', (e) => console.error(e));
 client.on('warn', (e) => console.warn(e));
-client.on('debug', (e) => console.info(e));
+//// client.on('debug', (e) => console.info(e));
 
 // * Command Registry
 client.registry
