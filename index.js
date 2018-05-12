@@ -1,6 +1,6 @@
 // * Imports
-import commando from "discord.js-commando";
-import config from "./config.json"; 
+const commando = require('discord.js-commando');
+const config = require('./config.json');
 
 // * Client Initialization
 const client = new commando.Client({
