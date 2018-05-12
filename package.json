@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vinstech8/Katou/issues"
   },
-  "homepage": "https://github.com/vinstech8/Katou#readme"
+  "homepage": "https://github.com/vinstech8/Katou#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
 }
